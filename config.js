@@ -1,11 +1,11 @@
 const config = {
-    TITLE: "Yukitoki", // this will dynamically update the title
-    SITE_NAME: "Yukitoki",
+    TITLE: "Discord Voice", // this will dynamically update the title
+    SITE_NAME: "Discord Voice",
     THEME: "light", // "light" | "dark"
     NAV: {
         ICON: {
-            TYPE: "TEXT", // "TEXT" | "IMAGE"
-            VALUE: "Yukitoki", // IMAGE path or TEXT
+            TYPE: "IMAGE", // "TEXT" | "IMAGE"
+            VALUE: "/icon-resized.png", // IMAGE path or TEXT
             HREF: "/" // href
         },
         BUTTONS: [
@@ -21,32 +21,32 @@ const config = {
             },
             {
                 label: "Discord",
-                path: "https://discord.gg/uqB8kxh",
+                path: "https://discord.gg/pndumb6J3t",
                 newPage: true
             },
             {
                 label: "GitHub",
-                path: "https://github.com/DevSnowflake/Yukitoki",
+                path: "https://github.com/Lebyy/discord-voice",
                 newPage: true
             }
         ]
     },
-    INSTALL_COMMAND: "Install Yukitoki",
+    INSTALL_COMMAND: "npm i discord-voice",
     HOME_LOGO: {
         TYPE: "TEXT", // "IMAGE" | "TEXT"
-        VALUE: "Yukitoki"
+        VALUE: "Discord Voice"
     },
     DESCRIPTION: {
         TITLE: "About",
-        VALUE: "A customizable website to view docs for your projects"
+        VALUE: "⏲️ A complete framework to facilitate the tracking of user voice time using discord.js"
     },
     DESCRIPTION_LIST: {
         TITLE: "Why?",
-        VALUE: ["Fast", "Easy to install", "Responsive", "Dark & Light mode", "Custom 404 page"]
+        VALUE: ["⏱️ Easy to use!", "📁 Support for all databases! (default is json)", "🚀 Super powerful!", "🕸️ Support for shards!", "⚙️ Very customizable!"]
     },
     FOOTER: {
-        HEADER: "Yukitoki",
-        DESCRIPTION: "Custom documentation viewing website"
+        HEADER: "Discord Voice",
+        DESCRIPTION: "Complete framework to facilitate the tracking of user voice time using discord.js"
     },
     LINKS: {
         string: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
@@ -95,9 +95,11 @@ const config = {
         VoiceConnection: "https://discord.js.org/#/docs/main/stable/class/VoiceConnection",
         Snowflake: "https://discord.js.org/#/docs/main/stable/typedef/Snowflake",
         YTDLDownloadOptions: "https://github.com/fent/node-ytdl-core#ytdlurl-options",
-        User: "https://discord.js.org/#/docs/main/stable/class/User",
+        DiscordUser: "https://discord.js.org/#/docs/main/stable/class/User",
+				Member: "https://discord.js.org/#/docs/main/stable/class/GuildMember",
         GuildResolvable: "https://discord.js.org/#/docs/main/stable/typedef/GuildResolvable",
         UserResolvable: "https://discord.js.org/#/docs/main/stable/typedef/UserResolvable",
+				PermissionResolvable: "https://discord.js.org/#/docs/main/stable/typedef/PermissionResolvable",
         unknown: "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html#new-unknown-top-type",
         Duplex: "https://nodejs.org/dist/latest/docs/api/stream.html#stream_class_stream_duplex",
         Guild: "https://discord.js.org/#/docs/main/stable/class/Guild"
